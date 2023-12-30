@@ -1,0 +1,143 @@
+{
+    "dogBreeds": [{
+        "id" : "1",
+        "breed": "Labrador Retriever",
+        "breedType": "Purebred",
+        "origin": "Canada,USA",
+        "popularity": "1",
+        "price": "1000",
+        "temperament": ["Cheerful", "Gentle", "Friendly", "Intelligent"],
+        "hypoallergenic": "No",
+        "intelligence": 7,
+        "photo": "img/labrador-retriever.jpg",
+        "stockQuantity": "3"
+    }, {
+        "id" : "2",
+        "breed": "German Shepard",
+        "breedType": "Purebred",
+        "origin": "Germany",
+        "popularity": "2",
+        "price": "220",
+        "temperament": ["Corageous", "Intelligent", "Loyal", "Watchful"],
+        "hypoallergenic": "No",
+        "intelligence": 3,
+        "photo": "img/German-Shepard.jpg",
+        "stockQuantity": "3"
+    }, {
+        "id" : "3",
+        "breed": "Golden Retriever",
+        "breedType": "Purebred",
+        "origin": "United Kingdom",
+        "popularity": "3",
+        "price": "170",
+        "temperament": ["Intelligent", "Kind", "Friendly", "Confident"],
+        "hypoallergenic": "No",
+        "intelligence": 4,
+        "photo": "img/Golden-Retriever.jpeg",
+        "stockQuantity": "3"
+    }, {
+        "id" : "4",
+        "breed": "French Bulldog",
+        "breedType": "Purebred",
+        "origin": "France, UK",
+        "popularity": "4",
+        "price": "160",
+        "temperament": ["Playful", "Sociable", "Friendly", "Lively", "Patient"],
+        "hypoallergenic": "No",
+        "intelligence": 58,
+        "photo": "img/French-Bulldog.webp",
+        "stockQuantity": "3"
+
+    }, {
+        "id" : "5",
+        "breed": "Bulldog",
+        "breedType": "Purebred",
+        "origin": "United Kingdom",
+        "popularity": "5",
+        "price": "110",
+        "temperament": ["Friendly", "Docile", "Willful", "Gregarious"],
+        "hypoallergenic": "No",
+        "intelligence": 77,
+        "photo": "img/Bulldog.jpg",
+        "stockQuantity": "3"
+
+    }, {
+        "id" : "6",
+        "breed": "Beagle",
+        "breedType": "Purebred",
+        "origin": "United Kingdom",
+        "popularity": "6",
+        "price": "80",
+        "temperament": ["Gentle", "Intelligent", "Even Tempered", "Determined"],
+        "hypoallergenic": "No",
+        "intelligence": 72,
+        "photo": "img/Beagle.webp",
+        "stockQuantity": "3"
+
+    }, {
+        "id" : "7",
+        "breed": "Poodle",
+        "breedType": "Purebred",
+        "origin": "Germany, France",
+        "popularity": "7",
+        "price": "500",
+        "temperament": ["Intelligent", "Faithful", "Trainable", "Instinctual"],
+        "hypoallergenic": "Yes",
+        "intelligence": 2,
+        "photo": "img/Poodle.jpeg",
+        "stockQuantity": "3"
+
+    }, {
+        "id" : "8",
+        "breed": "Rottweiler",
+        "breedType": "Purebred",
+        "origin": "Germany",
+        "popularity": "8",
+        "price": "400",
+        "temperament": ["Intelligent", "Corageous", "Fearless", "Confident"],
+        "hypoallergenic": "No",
+        "intelligence": 9,
+        "photo": "img/Rottweiler.webp",
+        "stockQuantity": "3"
+
+    }, {
+        "id" : "9",
+        "breed": "German Shorthaired Pointer",
+        "breedType": "Purebred",
+        "origin": "Germany",
+        "popularity": "9",
+        "price": "300",
+        "temperament": ["Intelligent", "Trainable", "Boisterous", "Cooperative"],
+        "hypoallergenic": "No",
+        "intelligence": 9,
+        "photo": "img/German-Shorthaired-Pointer.jpg",
+        "stockQuantity": "3"
+
+    }, {
+        "id" : "10",
+        "breed": "Yorkshire Terrier",
+        "breedType": "Purebred",
+        "origin": "United Kingdom",
+        "popularity": "10",
+        "price": "100",
+        "temperament": ["Independent", "Intelligent", "Corageous", "Confident"],
+        "hypoallergenic": "Yes",
+        "intelligence": 27,
+        "photo": "img/Yorkshire-Terrier.jpeg",
+        "stockQuantity": "3"
+
+    }, {
+        "id":"11",
+        "breed": "Boxer",
+        "breedType": "Purebred",
+        "origin": "Germany",
+        "popularity": "11",
+        "price": "250",
+        "temperament": ["Playful", "Friendly", "Devoted", "Loyal"],
+        "hypoallergenic": "No",
+        "intelligence": 48,
+        "photo": "img/Boxer.jpg",
+        "stockQuantity": "3"
+
+    }]
+}

@@ -1,0 +1,266 @@
+* {
+    box-sizing: border-box;
+	margin: 0px; 
+	padding: 0px; 
+}
+body, html
+{
+    font-family: Poppins-Regular, sans-serif;
+	height: 100%;
+}
+a
+{
+    font-size: 14px;
+	line-height: 1.7;
+	color: #864605;
+	margin: 0px;
+	transition: all 0.8s;
+}
+a:hover 
+{
+    text-decoration: none;
+    color: #864605;
+}
+.txt1 {
+    font-family: Poppins-Regular;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #864605;
+  }
+  
+  .txt2 {
+    font-family: Poppins-Regular;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333333;
+    text-transform: uppercase;
+  }
+  
+  .bg1 {background-color: #d1bf47}
+  .bg2 {background-color: #1da1f2}
+  .bg3 {background-color: #ea4335}
+/*Home */
+.home
+{
+    
+    background-image: url('../img/w7.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+.ico-color
+{
+    animation:myfirst 3s forwards infinite;
+     animation-delay: 0s;
+}
+@keyframes myfirst
+ {
+    0% {color:#fb4e27;}
+    50% {color:#eac12f;}
+    100% {color:#e0f80e;}
+}
+/*Cover Settings*/
+.container-login
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Log in form */
+
+.login {
+    width: 35%;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    color: #864605;
+    background-color: transparent;
+
+  }
+.logInForm
+{
+
+    background: rgba(7, 15, 12, 0.5);
+    width: 100%;
+    padding-left: 20px;
+    padding-right:20px;
+}
+.formTitle
+{
+    justify-content: center;
+    font-size: 39px;
+    line-height: 1.2;
+    text-align: center;
+    color: #f0b376;
+    font-weight: bolder;
+    
+}
+/*Inputs*/
+.form
+{
+    
+    float: left;
+    width: 100%;
+    position: relative;
+    border-bottom: 2px solid #d9d9d9 ;
+}
+.formLabel
+{
+    font-size: 14px;
+    line-height: 0.5;
+    padding-left: 7px;
+    color: #f0b376;
+    font-weight: bold;
+}
+.formInput
+{
+    font-size: 16px;
+    width: 100%;
+    height: 55px;
+    padding: 0 7px 0 30px;
+    line-height: 0.5;
+    color: #f0b376;
+    background: transparent;
+    display: block;
+    outline: none;
+    border: none;
+}
+/*After/ Befor*/
+
+.afterBefor {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.afterBefor::after {
+    content: "";
+    color: #f0b376;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: calc(100% - 20px);
+    bottom: 0;
+    left: 0;
+    padding-left: 13px;
+    padding-top: 3px;
+}
+
+.afterBefor::before {
+    content: "";
+    color: #f0b376;
+    display: block;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #f0b376;
+
+    transition: all 1s;
+}
+
+
+.formInput:focus + .afterBefor::before
+{
+    width: 100%;
+}
+
+.has-val.input100 + .afterBefor::before
+{
+    width: 100%;
+}
+
+.formInput:focus + .afterBefor::after 
+{
+    color: #f0b376;
+}
+
+.has-val.formInput + .afterBefor::after
+{
+    color: #f0b376;
+}
+/*------------------------------------------------------------------
+[ Button ]*/
+.bt
+{
+    
+    margin: 10px auto ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333333;
+    font-weight: bolder;
+}
+.form-btn
+{
+
+    overflow: hidden;
+    border-radius: 25px;
+    display: block;
+    z-index: 1;
+    box-shadow: 0 5px 30px 0px rgba(3, 216, 222, 0.2);
+    -webkit-box-shadow: 0 5px 30px 0px rgba(3, 216, 222, 0.2);
+    background: #f0b376;
+    background: -webkit-linear-gradient(right,#f57f64, #f6d86c, #ddf129);
+
+    color: #fff;
+    font-size: larger;
+    font-weight: bold;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    animation:mysecond 3s forwards infinite;
+     animation-delay: 0s;
+}
+.form-btn:hover
+{
+
+    background: -webkit-linear-gradient(right,#ecf786, #f6dd82, #f28f79);
+    
+}
+@keyframes mysecond
+ {
+    0% {color:rgb(249, 6, 6);}
+    50% {color:rgb(153, 5, 5);}
+    100% {color:rgb(154, 82, 6);}
+}
+.haveAccount
+{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.haveAccount a
+{
+    color:#f28f79;
+
+}
+.div1
+{
+    
+    width: 45%;
+    float: left;
+}
+.div2
+{
+    
+    width: 45%;
+    float: right;
+}
+
+
+
+
+

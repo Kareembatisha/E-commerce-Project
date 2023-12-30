@@ -1,0 +1,94 @@
+<html>
+  <head>
+    <title>Log-in Form</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="icon" type="image/png" href="./img/icons/pageicon.ico" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/login.css" />
+  </head>
+  <body>
+    <div class="home">
+      <div class="container-login">
+        <div class="login pl-5 pr-5 pt-5 pb-5">
+          <div class="overlay">
+            <form
+              class="logInForm validate-form"
+              id="loginform"
+              target="_self"
+              method="get"
+            >
+              <!--Title Form-->
+              <h1 class="formTitle pb-5 animate__animated animate__bounce">
+                <i class="fas fa-house-user ico-color"></i> Login
+              </h1>
+
+              <!--UserID-->
+              <input type="hidden" id="UserNameId" name="UserId" value="2023" />
+
+              <!--FirstName-->
+              <div
+                class="form validate-input mb-3"
+                data-validate="User Name is reauired"
+              >
+                <i class="fas fa-user-check ico-color"></i>
+                <span class="formLabel">User Name</span>
+
+                <input
+                  id="UserName"
+                  class="formInput"
+                  type="text"
+                  name="UserName"
+                  placeholder="Type your Name"
+                  required
+                />
+                <span class="afterBefor fab fa-google"></span>
+              </div>
+              <!--Password-->
+              <div
+                class="form validate-input"
+                data-validate="Password is required"
+              >
+                <i class="fas fa-lock ico-color"></i>
+                <span class="formLabel">Password</span>
+                <input
+                  id="UserPass"
+                  class="formInput"
+                  type="password"
+                  name="pass"
+                  placeholder="Type your password"
+                />
+                <span class="afterBefor fab fa-google"></span>
+              </div>
+
+              <!--log-In Button -->
+              <div class="container text-center bt">
+                <input
+                  id="login"
+                  type="submit"
+                  value="submit"
+                  class="btn form-btn"
+                  name="Login"
+                />
+              </div>
+              <div class="haveAccount">
+                Don't have an account yet?<a href="signup.html">Sign Up</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/home.js"></script>
+  </body>
+</html>
